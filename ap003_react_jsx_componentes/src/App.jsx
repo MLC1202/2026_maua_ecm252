@@ -1,9 +1,9 @@
 import './styles.css'
 
 const App = () => {
-  const esliosBotao = {
+  const estilosBotao = {
     marginTop: 12,
-    paddintTop: 8,
+    paddingTop: 8,
     paddingBottom: 8,
     backgroundColor: 'blueviolet',
     width: '100%',
@@ -26,10 +26,10 @@ const App = () => {
       <input
         type="text"
         id="campoNome"
-        style={{ paddingTop: 8, paddingBotton: 8, width: '100%', borderStyle: 'hidden', outline: 'none', borderRadius: 8 }}
+        style={{ paddingTop: 8, paddingBottom: 8, width: '100%', borderStyle: 'hidden', outline: 'none', borderRadius: 8 }}
       />
 
-      <button onClick={aoClicar} style={esliosBotao}>
+      <button onClick={aoClicar} style={estilosBotao}>
         {obterTextoDoBotao()}
       </button>
     </div>
