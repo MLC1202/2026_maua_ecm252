@@ -1,0 +1,1 @@
+import Imagem from "./Imagem";
